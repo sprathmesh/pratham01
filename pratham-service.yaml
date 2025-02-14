@@ -1,0 +1,22 @@
+apiVersion: operator.tigera.io/v1
+kind: APIServer
+metadata:
+  name: default
+spec: {}
+
+root@raven-RS500-E8-RS8-V2:/home/raven# cat pratham-service.yaml 
+apiVersion: v1
+kind: Service
+metadata:
+  name: pratham-service
+spec:
+  selector:
+    app: nginx
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 80        # Service port
+      targetPort: 80  # Pod port
+      nodePort: 30080 # Host port (range: 30000-32767)
+
+
