@@ -17,16 +17,7 @@ Copy
 Edit
 
 
-.
-├── Dockerfile                # Docker configuration for building the image
-├── index.html                # Main HTML file for the website
-├── style.css                 # CSS file for website styling
-├── pratham2025.jpeg          # Profile picture used in the website
-├── Prathmesh_Shinde.pdf      # Downloadable CV
-├── pratham-deployment.yaml   # Kubernetes Deployment manifest
-├── pratham-service.yaml      # Kubernetes Service manifest
-└── port-forword.sh           # Shell script for port-forwarding
-
+steps:----------------
 
 Docker Setup
 Build and Run the Docker Container
