@@ -15,6 +15,8 @@ Directory Structure
 bash
 Copy
 Edit
+
+
 .
 ├── Dockerfile                # Docker configuration for building the image
 ├── index.html                # Main HTML file for the website
@@ -24,6 +26,8 @@ Edit
 ├── pratham-deployment.yaml   # Kubernetes Deployment manifest
 ├── pratham-service.yaml      # Kubernetes Service manifest
 └── port-forword.sh           # Shell script for port-forwarding
+
+
 Docker Setup
 Build and Run the Docker Container
 bash
